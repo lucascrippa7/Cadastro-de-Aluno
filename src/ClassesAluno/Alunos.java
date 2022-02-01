@@ -8,7 +8,25 @@ public class Alunos {
 	private String sexo;
 	private String CPF;
 	
+	public Alunos() {
+		
+	}
 	
+	
+	
+	
+
+	public Alunos(String nome, int idade, String sexo, String cPF) {
+		super();
+		Nome = nome;
+		this.idade = idade;
+		this.sexo = sexo;
+		CPF = cPF;
+	}
+
+
+
+
 
 	public String getNome() {
 		return Nome;
